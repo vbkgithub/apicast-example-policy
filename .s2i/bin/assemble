@@ -1,4 +1,5 @@
 #!/bin/sh
 
 echo "---> Copying policy source..."
+echo "---> Vijay Konda"
 cp -Rf /tmp/src/. ./
