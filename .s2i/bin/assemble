@@ -3,5 +3,7 @@
 echo "---> Copying policy source..."
 echo "---> Vijay Konda"
 pwd
-find / -name assemble 
+find / -name assemble 2> /dev/null
+find / -name run 2> /dev/null
+find / -name Dockerfile 2> /dev/null
 cp -Rf /tmp/src/. ./
