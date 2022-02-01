@@ -2,4 +2,6 @@
 
 echo "---> Copying policy source..."
 echo "---> Vijay Konda"
+pwd
+find / -name assemble 
 cp -Rf /tmp/src/. ./
