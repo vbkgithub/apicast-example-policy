@@ -5,5 +5,5 @@ echo "---> Vijay Konda"
 pwd
 find / -name assemble 2> /dev/null
 find / -name run 2> /dev/null
-find / -name Dockerfile 2> /dev/null
+find / -name Dockerfile
 cp -Rf /tmp/src/. ./
