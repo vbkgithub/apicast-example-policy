@@ -4,13 +4,15 @@ echo "---> Copying policy source..."
 echo "---> Vijay Konda"
 pwd
 find / -name assemble 2> /dev/null
-cat /tmp/scripts/assemble
+#cat /tmp/scripts/assemble
 echo "Looking for run script"
 find / -name run 2> /dev/null
-cat /tmp/scripts/run
+#cat /tmp/scripts/run
 echo "Looking for docker file"
 find / -name Dockerfile 2> /dev/null
-echo "List src directory"
-ls -lR /tmp/src
+echo "***List scripts directory***"
+ls -laR /tmp/scripts
+echo "***List src directory***"
+ls -laR /tmp/src
 echo "Copy src"
 cp -Rf /tmp/src/. ./
